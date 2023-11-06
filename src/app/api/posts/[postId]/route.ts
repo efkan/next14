@@ -19,6 +19,6 @@ export async function GET(request: Request, context: any) {
   const {params} = context
 
   return NextResponse.json({
-    post: posts.find(post => post.id === parseInt(params.id))
+    post: posts.find(post => post.id === parseInt(params.postId))
   });
 }
