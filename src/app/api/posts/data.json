@@ -1,12 +1,14 @@
 [
   {
     "id": 1,
-    "title": "Hello World!",
-    "description": "This is my first post"
+    "title": "Docker",
+    "description": "One of the best virtualization tools",
+    "img_url": "https://brandslogos.com/wp-content/uploads/images/large/docker-logo.png"
   },
   {
     "id": 2,
-    "title": "Voila!",
-    "description": "An amazing post"
+    "title": "Tesla",
+    "description": "An amazing car brand",
+    "img_url": "https://brandslogos.com/wp-content/uploads/images/large/tesla-logo.png"
   }
 ]
