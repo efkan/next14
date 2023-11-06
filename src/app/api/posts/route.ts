@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { posts } from "./[postId]/route";
+import posts from "./data.json";
 
 
 export async function GET() {
