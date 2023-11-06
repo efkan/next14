@@ -1,3 +1,6 @@
+
+// Shows a Dynamic SEO example
+
 const fetchPost = async (id: string) => {
   const post = await fetch(`https://next14-git-main-efkans-projects.vercel.app/api/posts/${id}`)
   return post.json()
