@@ -26,7 +26,7 @@ export async function generateMetadata ({params}: any) {
           // secureUrl: 'https://nextjs14.vercel.app/og-image.jpg'
         }
       ],
-      siteName: 'Nextjs14',
+      siteName: 'Nextjs14 with Efkan',
       locale: 'en_US',
       type: 'website',
     }
