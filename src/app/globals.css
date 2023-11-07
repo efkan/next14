@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
 
@@ -26,5 +26,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-ul { @apply list-disc }
