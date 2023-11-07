@@ -35,5 +35,5 @@ export default function Product() {
   console.log("Product - searchParams.get(new):", searchParams.get('new'));
 
 
-  return <main>Product ID: {params.productId} - [new] value:{searchParams.new}</main>
+  return <main>Product ID: {params.productId} - [new] value:{searchParamsJSON?.new}</main>
 }
