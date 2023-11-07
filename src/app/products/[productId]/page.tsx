@@ -1,7 +1,7 @@
 
 // // this is considered as a BackEnd component as default
 // async function getProductById(id: number) {
-//   const response = await fetch(`http://localhost:3000/api/products/${id}`)
+//   const response = await fetch(`https://next14-git-main-efkans-projects.vercel.app/api/products/${id}`)
 
 //   return response.json()
 // }
@@ -47,7 +47,7 @@ export default function Product() {
 
   const setProductById = async () => {
     const id = params.productId
-    const response = await fetch(`http://localhost:3000/api/products/${id}`)
+    const response = await fetch(`https://next14-git-main-efkans-projects.vercel.app/api/products/${id}`)
     const data = await response.json()
     console.log("Product - data:", data);
 

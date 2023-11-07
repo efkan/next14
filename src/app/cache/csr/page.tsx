@@ -12,7 +12,7 @@ export default function CSR() {
   const [num, setNum] = useState(null)
 
   const call = async () => {
-    const response = await fetch('http://localhost:3000/api/random', {
+    const response = await fetch('https://next14-git-main-efkans-projects.vercel.app/api/random', {
       cache: 'no-store' // default value
       // cache: 'force-cache'
     })

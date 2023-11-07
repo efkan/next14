@@ -7,7 +7,7 @@ export default function Posts({params}: any) {
     const title = data.get('title')
     const description = data.get('description')
 
-    const response = await fetch('http://localhost:3000/api/posts', {
+    const response = await fetch('https://next14-git-main-efkans-projects.vercel.app/api/posts', {
       method: 'POST',
       body: JSON.stringify({ title, description }),
     })
